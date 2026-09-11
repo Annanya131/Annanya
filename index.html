@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Annanya Jena - Computer Science Engineering Graduate, Data Analytics & Machine Learning Developer.">
+  <meta name="author" content="Annanya Jena">
+  <title>Annanya Jena | Developer & Data Analyst Portfolio</title>
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Annanya Jena - Portfolio">
+  <meta property="og:description" content="Computer Science Engineering graduate specializing in Python, SQL, Machine Learning, and Software Development.">
+  <meta property="og:type" content="website">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header">
+    <nav class="navbar container">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">&lt;A/&gt;</span>
+        <span class="logo-text">ANNANYA JENA</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#testimonials" class="nav-link">Recommendations</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="images/resume.pdf" class="btn btn-outline btn-sm" download>
+          <i data-lucide="download"></i> Resume
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <i data-lucide="menu" id="menuIcon"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-grid"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="status-dot"></span> Open to Entry-Level Software & Data Analyst Roles
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient">Annanya Jena</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          Computer Science Engineering Graduate | Python, SQL & Machine Learning Developer
+        </h2>
+        <p class="hero-description">
+          Adept at translating analytical insights into practical, real-world software solutions and Android applications. Currently strengthening skills in Data Analytics & Cybersecurity.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <i data-lucide="folder-code"></i> View Projects
+          </a>
+          <a href="images/resume.pdf" class="btn btn-secondary" download>
+            <i data-lucide="file-text"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i data-lucide="mail"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/annanyajena" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i data-lucide="linkedin"></i> linkedin.com/in/annanyajena
+          </a>
+          <a href="https://github.com/Annanya131" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i data-lucide="github"></i> github.com/Annanya131
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="user"></i> Profile</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="about-card">
+          <div class="about-text">
+            <p>
+              Computer Science Engineering graduate with a strong foundation in Python, SQL, and machine learning, backed by hands-on project experience in data analysis and Android application development. Adept at translating analytical insights into practical, real-world software solutions.
+            </p>
+            <p>
+              Currently strengthening industry-ready skills in data analytics and cybersecurity through structured professional training. Eager to contribute as an entry-level software developer or data analyst in a growth-oriented organization.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i data-lucide="code"></i>
+              <div>
+                <h4>Software Engineering</h4>
+                <p>Translating analytics into real-world applications</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i data-lucide="database"></i>
+              <div>
+                <h4>Data Analysis & ML</h4>
+                <p>Data cleaning, SQL querying, model training & evaluation</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i data-lucide="shield-check"></i>
+              <div>
+                <h4>Cybersecurity & Analytics</h4>
+                <p>Continuous training through Cisco Networking Academy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="cpu"></i> Capabilities</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <i data-lucide="code-2"></i>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Java</span>
+              <span class="tag">C</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <i data-lucide="wrench"></i>
+              <h3>Tools & Platforms</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">MySQL</span>
+              <span class="tag">Excel</span>
+              <span class="tag">PowerPoint</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Jupyter Notebook</span>
+              <span class="tag">Android Studio</span>
+              <span class="tag">Firebase</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <i data-lucide="bar-chart-3"></i>
+              <h3>Data & BI Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">Tableau</span>
+              <span class="tag">Data Visualization</span>
+              <span class="tag">Data Cleaning & Preprocessing</span>
+              <span class="tag">Business Reporting</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <i data-lucide="brain"></i>
+              <h3>Core Concepts & ML</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Machine Learning Fundamentals</span>
+              <span class="tag">Supervised Learning</span>
+              <span class="tag">Random Forest</span>
+              <span class="tag">Logistic Regression</span>
+              <span class="tag">Data Structures</span>
+              <span class="tag">Tkinter (GUI)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="briefcase"></i> Experience</span>
+          <h2 class="section-title">Internship & Training</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Python Data Analyst Trainee</h3>
+                  <p class="company-name">Industry-Oriented Professional Development Program</p>
+                </div>
+                <span class="timeline-date">Ongoing</span>
+              </div>
+              <ul class="experience-list">
+                <li>Undergoing industry-oriented training in Python, SQL, and data analytics as part of a structured professional development program.</li>
+                <li>Building proficiency in SQL, Power BI/Tableau, data visualization, and foundational machine learning concepts.</li>
+                <li>Executing hands-on projects covering data cleaning, preprocessing, and business reporting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="folder"></i> Portfolio</span>
+          <h2 class="section-title">Notable Projects</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-header">
+              <i data-lucide="smartphone" class="project-icon"></i>
+              <span class="project-type">Android & ML</span>
+            </div>
+            <h3 class="project-title">Android-Based Coronary Heart Disease Prediction System</h3>
+            <p class="project-description">
+              Developed an Android healthcare application leveraging machine learning and Firebase for real-time risk evaluation and monitoring.
+            </p>
+            <div class="project-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li>Implemented the Random Forest algorithm to predict coronary heart disease risk from patient data.</li>
+                <li>Integrated Firebase for real-time cloud storage and secure user data management.</li>
+              </ul>
+            </div>
+            <div class="project-tech">
+              <span>Android Studio</span>
+              <span>Java/Kotlin</span>
+              <span>Firebase</span>
+              <span>Python</span>
+              <span>Machine Learning</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-header">
+              <i data-lucide="heart-pulse" class="project-icon"></i>
+              <span class="project-type">Machine Learning</span>
+            </div>
+            <h3 class="project-title">Predicting Coronary Heart Disease Using Machine Learning Techniques</h3>
+            <p class="project-description">
+              Designed and implemented a machine learning-based analytical system to assess coronary heart disease risk from clinical metrics.
+            </p>
+            <div class="project-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li>Performed data preprocessing, cleaning, and feature selection to improve model reliability.</li>
+                <li>Applied supervised learning algorithms to enhance prediction accuracy.</li>
+                <li>Gained practical experience in Python programming, data analysis, and model evaluation.</li>
+              </ul>
+            </div>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>Data Preprocessing</span>
+              <span>Supervised Learning</span>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-header">
+              <i data-lucide="help-circle" class="project-icon"></i>
+              <span class="project-type">Desktop Application</span>
+            </div>
+            <h3 class="project-title">ML-Based Quiz Application</h3>
+            <p class="project-description">
+              Developed an interactive GUI-based quiz application that utilizes machine learning to forecast user academic performance.
+            </p>
+            <div class="project-details">
+              <h4>Key Contributions:</h4>
+              <ul>
+                <li>Developed a graphical user interface (GUI) using Tkinter.</li>
+                <li>Designed a predictive model using Logistic Regression to assess and forecast user performance based on quiz scores.</li>
+              </ul>
+            </div>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Tkinter</span>
+              <span>Logistic Regression</span>
+              <span>Predictive Modeling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="graduation-cap"></i> Academic</span>
+          <h2 class="section-title">Education</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="education-grid">
+          <!-- B.Tech -->
+          <div class="edu-card">
+            <div class="edu-year">2022 - 2026</div>
+            <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+            <h4 class="edu-field">Computer Science Engineering</h4>
+            <p class="edu-institution">Synergy Institute of Technology, BPUT</p>
+            <div class="edu-score">Aggregate: <strong>75.9%</strong></div>
+          </div>
+
+          <!-- Class XII -->
+          <div class="edu-card">
+            <div class="edu-year">2020 - 2022</div>
+            <h3 class="edu-degree">Senior Secondary (Class XII)</h3>
+            <h4 class="edu-field">CBSE Board</h4>
+            <p class="edu-institution">Apex Senior Secondary English Medium School</p>
+            <div class="edu-score">Percentage: <strong>72.4%</strong></div>
+          </div>
+
+          <!-- Class X -->
+          <div class="edu-card">
+            <div class="edu-year">2019 - 2020</div>
+            <h3 class="edu-degree">Matriculation (Class X)</h3>
+            <h4 class="edu-field">CBSE Board</h4>
+            <p class="edu-institution">Apex English Medium School</p>
+            <div class="edu-score">Percentage: <strong>81%</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Achievements Section -->
+    <section id="certifications" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="award"></i> Credentials</span>
+          <h2 class="section-title">Achievements & Certifications</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="shield"></i></div>
+            <div class="cert-info">
+              <h3>Junior Cybersecurity Analyst Career Path</h3>
+              <p class="cert-issuer">Cisco Networking Academy</p>
+              <span class="cert-date"><i data-lucide="calendar"></i> February 2026</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="lock"></i></div>
+            <div class="cert-info">
+              <h3>Cybersecurity Essentials</h3>
+              <p class="cert-issuer">Cisco Networking Academy</p>
+              <span class="cert-date"><i data-lucide="calendar"></i> February 2026</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="globe"></i></div>
+            <div class="cert-info">
+              <h3>Web Development Training</h3>
+              <p class="cert-issuer">Acmegrade</p>
+              <span class="cert-date"><i data-lucide="calendar"></i> August 2025 - September 2025</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="code"></i></div>
+            <div class="cert-info">
+              <h3>Python</h3>
+              <p class="cert-issuer">Infosys Springboard</p>
+              <span class="cert-date"><i data-lucide="calendar"></i> October 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="message-square"></i> Feedback</span>
+          <h2 class="section-title">Recommendations</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="testimonial-carousel-container">
+          <div class="testimonial-carousel" id="testimonialCarousel">
+            
+            <div class="testimonial-card active">
+              <div class="testimonial-quote"><i data-lucide="quote"></i></div>
+              <p class="testimonial-text">
+                Placeholder: Professional recommendations and endorsements from mentors, project leads, or academic advisors will be showcased here.
+              </p>
+              <div class="testimonial-author">
+                <h4>Academic Advisor / Mentor</h4>
+                <p>Department of Computer Science Engineering</p>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote"><i data-lucide="quote"></i></div>
+              <p class="testimonial-text">
+                Placeholder: Feedback regarding technical contributions, analytical problem-solving, and team collaboration will be displayed here.
+              </p>
+              <div class="testimonial-author">
+                <h4>Project Supervisor</h4>
+                <p>Software & Data Analytics Program</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="prevBtn" aria-label="Previous recommendation"><i data-lucide="chevron-left"></i></button>
+            <div class="carousel-dots" id="carouselDots"></div>
+            <button class="carousel-btn" id="nextBtn" aria-label="Next recommendation"><i data-lucide="chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="mail"></i> Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-card">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out for entry-level roles, technical collaborations, or professional inquiries.</p>
+
+            <div class="contact-details">
+              <a href="mailto:annanyajena131@gmail.com" class="contact-item">
+                <i data-lucide="mail"></i>
+                <div>
+                  <span>Email</span>
+                  <strong>annanyajena131@gmail.com</strong>
+                </div>
+              </a>
+
+              <a href="tel:+918763920454" class="contact-item">
+                <i data-lucide="phone"></i>
+                <div>
+                  <span>Phone</span>
+                  <strong>+91-8763920454</strong>
+                </div>
+              </a>
+
+              <a href="https://linkedin.com/in/annanyajena" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <i data-lucide="linkedin"></i>
+                <div>
+                  <span>LinkedIn</span>
+                  <strong>linkedin.com/in/annanyajena</strong>
+                </div>
+              </a>
+
+              <a href="https://github.com/Annanya131" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <i data-lucide="github"></i>
+                <div>
+                  <span>GitHub</span>
+                  <strong>github.com/Annanya131</strong>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" onsubmit="return false;">
+            <h3>Send a Message</h3>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" required placeholder="Hi Annanya, I would like to connect..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i data-lucide="send"></i> Send Message
+            </button>
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">&lt;A/&gt;</span> ANNANYA JENA
+      </div>
+      <p class="footer-text">Computer Science Engineering | Data Analyst & Developer</p>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/annanyajena" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        <a href="https://github.com/Annanya131" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+        <a href="mailto:annanyajena131@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+      </div>
+      <p class="copyright">
+        &copy; <span id="year"></span> Annanya Jena. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
